@@ -1,6 +1,6 @@
 # CVtexeur
 
-**CVtexeur** transforme un CV Word (.docx) en code LaTeX, dans le modèle de votre choix.
+**CVtexeur** transforme un CV Word (.docx) en PDF et en code LaTeX, dans le modèle de votre choix.
 
 👉 **Utiliser CVtexeur en ligne : https://amanylili.github.io/cvtexeur/**
 
@@ -11,7 +11,10 @@ Tout se passe dans le navigateur : le CV n'est envoyé sur aucun serveur. Seul l
 1. **Choisissez un modèle** parmi les quatre proposés.
 2. **Déposez votre CV Word** (.docx). CVtexeur repère le nom, le titre, les coordonnées, les rubriques, les postes et formations avec leurs dates, les listes à puces, les compétences et les langues.
 3. **Vérifiez le contenu détecté.** Il s'affiche dans un format texte simple que vous pouvez corriger. Le code LaTeX se met à jour à chaque modification.
-4. **Récupérez le LaTeX** : copiez-le, téléchargez le fichier `.tex` ou ouvrez-le directement dans Overleaf pour obtenir le PDF.
+4. **Téléchargez le PDF** directement : un aperçu fidèle du modèle s'affiche, et le bouton « Télécharger le PDF » ouvre la fenêtre d'impression du navigateur (choisissez « Enregistrer au format PDF » et décochez « En-têtes et pieds de page »).
+5. **Ou récupérez le LaTeX** : copiez-le, téléchargez le fichier `.tex` ou ouvrez-le directement dans Overleaf.
+
+Le PDF direct est produit par le navigateur, à partir d'une reproduction HTML des modèles avec des polices équivalentes. Il est instantané et ne nécessite aucune installation. Pour le rendu typographique exact de LaTeX, compilez le code LaTeX (dans Overleaf, par exemple).
 
 ## Les modèles
 
